@@ -8,16 +8,16 @@ public class Patient {
     private String phoneNumber;
     private String city;
     private String state;
-    private ArrayList<Symptom> symptom;
 
 
-    public Patient(String name, String emailAddress,String phoneNumber, String city, String state, ArrayList<Symptom>patient ){
+
+    public Patient(String name, String emailAddress,String phoneNumber, String city, String state){
         this.name = name;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber ;
         this.city = city;
         this.state = state;
-        this.symptom = new ArrayList<Symptom>();
+
     }
     public void setName(String name) {
         this.name = "";
@@ -45,9 +45,6 @@ public class Patient {
     }
     public void setState() {
         this.state = state;
-    }
-    public ArrayList<Symptom> getPatient() {
-        return symptom;
 
 
     }

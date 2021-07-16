@@ -11,7 +11,7 @@ public class Main {
 
 
         Scanner keyboard = new Scanner(System.in);
-        ArrayList<Symptom>symptoms = new ArrayList<Symptom>();
+
         ArrayList<String>strings = new ArrayList<String>();
 
 
